@@ -1,0 +1,1 @@
+var e=`ep_reported_absences_v1`;function t(){try{return JSON.parse(localStorage.getItem(e)||`[]`)}catch{return[]}}function n(n){let r=t();r.unshift(n),localStorage.setItem(e,JSON.stringify(r))}function r(t){localStorage.setItem(e,JSON.stringify(t))}export{r as n,n as r,t};

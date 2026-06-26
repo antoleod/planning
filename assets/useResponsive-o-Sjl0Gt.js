@@ -1,0 +1,1 @@
+import{a as e,c as t}from"./AppContext-CZWrO_SE.js";var n=t(e(),1);function r(e=768){let[t,r]=(0,n.useState)(()=>typeof window<`u`&&window.innerWidth>=e);return(0,n.useEffect)(()=>{let t=()=>r(window.innerWidth>=e);return window.addEventListener(`resize`,t),()=>window.removeEventListener(`resize`,t)},[e]),{isDesktop:t,isMobile:!t}}export{r as t};
